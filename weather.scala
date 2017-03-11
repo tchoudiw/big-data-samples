@@ -22,4 +22,4 @@ val task = new java.util.TimerTask {
   def run() = weatherTrend( )
 }
 trend.schedule(task, 1000L, 60000L) // process every 1 minute
-//task.cancel() //call it to cancell the task 
+task.cancel() //call it to cancell the task 
