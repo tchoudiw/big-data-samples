@@ -22,6 +22,7 @@ This repository is a collecttion of different bidata work and project using both
 
 
 2) 02_TCP_streaming.scala
+
 In this file we process some streaming data using Spark SCala with TCP connection to the source 
  - run the script with same steps as above
  - Expected results see the image widowstreaming.png
