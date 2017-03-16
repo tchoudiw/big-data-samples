@@ -1,5 +1,8 @@
-This Analysis is bases On getting data from weather URL source and process it Using Hive via a shell script(weather1.sh)
+1. Weather trend using Hive 
 
+
+This Analysis is bases On getting data from weather URL source and process it Using Hive via a shell script(weather.sh)
+The Hadoop distrubution used is Cloudra
 Source URL 
 http://api.apixu.com/v1/current.json?key=a14ffe7f0f9b464bbe023057172901&q=Paris
 
@@ -41,5 +44,8 @@ sudo vi cronjob10.sh
 
 13. Write Query to display current weather
 14. Write query to find out weather changing trend
+
+run the programm with the command on Linux
+./weather.sh
 
 
