@@ -1,6 +1,8 @@
 Setting Up a Sample Application in HBase, Spark, and HDFS 
 This Article coming from https://dzone.com/articles/sample-app-hbase-spark-hdfs Show How to Use Hbase with Spark.
 You can get Original code at https://gist.github.com/bolerio/f70c374c3e96495f5a69
+
+
 HBase Install
 
 We start with HBase because in fact you don't even need Hadoop to develop locally with it. There is of course a standard package for HBase and the latest stable release (at the time of this writing) is 1.1.2. But that's not going to do it for us because we want Spark. There is an integration of Spark with HBase that is being included as an official module in HBase, but only as of the latest 2.0.0 version, which is still in an unstable SNAPSHOT state. If you are just starting with these technologies you don't care about having a production blessed version. So, to install HBase, you need to build it first. Here are the steps:
